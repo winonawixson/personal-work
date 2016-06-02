@@ -1,0 +1,59 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 19, 2016, 2:48:01 PM
+    Author     : Winona Wixson
+*/
+
+body {
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    /*    width:100%;
+        height:100%;
+        height:350px;
+        background-image: url(../img/winterpic.png);
+        background-size:cover;*/
+}
+
+body {
+    background-color: rgb(111, 144, 162);
+    /*(235, 244, 250);
+    */
+}
+
+.header {
+    font-size: 4em;
+    padding: 25px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.content {
+    margin: 120px auto;
+}
+
+.jumbotron {
+    color: rgb(111, 144, 162);
+    background-color: rgb(225, 229, 240);
+}
+
+.nav-pills>li>a {
+    color: white;
+    font-size: medium;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+    background-color: rgb(225, 229, 240);
+    color: rgb(111, 144, 162);
+    font-size: medium;
+}
+
+.nav-pills>li>a:hover {
+    background-color: rgb(225, 229, 240);
+    color: white;
+    font-size: medium;
+}
+
